@@ -7,8 +7,9 @@
     <meta name="keywords" content="centro terapeutco, psicologia, ciencia, salud mental, mente, inconciente">
     <meta name="description" content="somos un centro terapeutico integral que brinda servicios psicologicos para fortalecer y mejorar la salud mental">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/estilos.css">
-    <title>Psicologia hoy</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/pruebacss.css">
+    <title>Contacto</title>
 </head>
 <body>
   <div class="container-fluid" id="logo">
@@ -36,67 +37,61 @@
       </div>
       </div>
       </nav>
-  <section>
-
-            
-        <p>
-          <label for="nombre" class="colocar_nombre">Nombre
-            <span class="obligatorio">*</span>
-          </label>
-            <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
-        </p>
-      
-        <p>
-          <label for="email" class="colocar_email">Email
-            <span class="obligatorio">*</span>
-          </label>
-            <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
-        </p>
-    
-        <p>
-          <label for="telefone" class="colocar_telefono">Teléfono
-          </label>
-            <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
-        </p>    
-        
-        <p>
-          <label for="mensaje" class="colocar_mensaje">Mensaje
-            <span class="obligatorio">*</span>
-          </label>                     
-                            <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
-                        </p>                    
-      
-        <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
-
-        <p class="aviso">
-          <span class="obligatorio"> * </span>los campos son obligatorios.
-        </p>          
-    
-  </form>
-
-
-</section>
-<footer>
-  <div class="redes"> 
-    
-    
-</div>
-      <div class="container-fluid" id="footer">
+  <section class="ubicacion">
+    <div class="container-fluid" id="centro">
       <div class="row align-items-start">
-      <div class="col">
-        <a href="https://api.whatsapp.com/send?phone=541138043672&text=%C2%A1Hola!%20Tengo%20una%20consulta" target="_blank">
-          <img class='redesf' src="images/whats.jpeg" alt="whatsapp" width="100" height="100">
-      </a>
-      <a href="https://www.facebook.com/111672873577551/" target="_blank">
-          <img class='redesf' src="images/face.jpeg" alt="facebook" width="100" height="100">
-      </a>
-      <a href="https://instagram.com/cocolicheartesanias?utm_medium=copy_link" target="_blank">
-          <img class='redesf' src="images/ig.jpeg" alt="instagram" width="100" height="100">
-      </a>
-          <p class="copy">Psicología hoy © 2022. Todos los derechos reservados.</p>
-      </div> 
+        <div class="col-md-5" id="consul">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105227.91368440581!2d-58.98694818042533!3d-34.49344458274001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc9cb6643d2003%3A0xa8da0402f634b636!2sPilar%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1648508889809!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div> 
+        <div class="col-md-7" id="tcc">
+          <form action="submeter-formulario.php" method="post">       
+              
+            <p>
+              <label for="nombre" class="colocar_nombre">Nombre
+                <span class="obligatorio">*</span>
+              </label>
+                <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+            </p>
+          
+            <p>
+              <label for="email" class="colocar_email">Email
+                <span class="obligatorio">*</span>
+              </label>
+                <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+            </p>
+        
+            <p>
+              <label for="telefone" class="colocar_telefono">Teléfono
+              </label>
+                <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+            </p>    
+            
+            <p>
+              <label for="mensaje" class="colocar_mensaje">Mensaje
+                <span class="obligatorio">*</span>
+              </label>                     
+            <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+             </p>                    
+          
+            <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+      
+            <p class="aviso">
+              <span class="obligatorio"> * </span>los campos son obligatorios.
+            </p>        
+        </div> 
       </div>
-      </div>
+    </div>
+</form>
+</section>
+<footer class="w-100 d-flex align-items justify-content-center flex-wrap">
+  <p class="fs-5 px-3 pt-3">Psicología hoy © 2022. Todos los derechos reservados.</p>
+  <div id="iconos">
+    <a href="https://web.whatsapp.com/"><i class="bi bi-whatsapp"></i></a>
+    <a href="https://www.instagram.com/psicologiahoy.terapia/"><i class="bi bi-instagram"></i></a>
+    <a href="https://mail.google.com/mail/u/0/#sent?compose=new"><i class="bi bi-envelope"></i></a>
+
+  </div>
+
 </footer>
 
 

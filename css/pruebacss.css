@@ -1,0 +1,180 @@
+#logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(241,198,201);
+    background: radial-gradient(circle, rgba(240, 201, 204, 0.727) 0%, rgba(241,198,192,1) 51%);
+}
+#consul{
+    padding: 0%;
+}
+.ubicacion {
+  padding: 20px;
+  border: solid 10px rgb(255, 244, 236);
+  margin: 20px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 15px;
+  border: solid 10px rgb(248, 227, 212);
+  margin: 30px 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
+#tcc{
+    display: flex;
+    font-family: 'Cormorant Garamond', serif;
+     color: gray;
+     text-align: justify;
+     align-self: center;
+     font-size: x-large;
+     padding: 5%;
+}
+#centro{
+    background-color: rgb(255, 244, 236);
+    padding: 0%;
+}
+footer{
+    background: rgb(241,198,201);
+    background: radial-gradient(circle, rgba(240, 201, 204, 0.727) 0%, rgba(241,198,192,1) 51%);
+    min-height: 100px;
+    text-align: end;
+
+}
+footer p{
+    color:rgb(0, 0, 0);
+    text-align:left;
+    font-size: smaller;
+}
+#iconos{
+font-size: 30px;
+padding: 0 8px;
+color: rgb(0, 0, 0);
+}
+
+
+.titulo{
+    font-family: 'Dancing Script', cursive;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: xx-large;
+}
+.copy{
+    display: flex;
+    text-align: end;
+    justify-content: end;
+    font-family: 'Domine', serif;
+}
+#somos{
+    padding: 0%;
+    font-family: 'Dancing Script', cursive;
+    font-size: xx-large;
+}
+#cti{
+    font-size: medium;
+    display: flex;
+    font-family: 'Cormorant Garamond', serif;
+     color: rgb(51, 50, 50);
+     text-align: justify;
+     align-self: center;
+     font-size: x-large;
+     padding: 5%;
+
+}
+.card-img-top{
+    width: 320px;
+    height: 200px;
+}
+.fondo{
+    background-color: rgb(255, 244, 236); 
+}
+
+#tituloservicios{
+    display: flex;
+    font-family: 'Dancing Script', cursive;
+    font-size: x-large;
+    padding: 10px;
+    justify-content: center;
+}
+label {
+    display: block;
+    float: center;
+  }
+  
+  p input {
+    font-size: 20px;
+  }
+  
+  button {
+    height: 70px;
+    padding-left: 3px;
+    padding-right: 5px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #ab4493;
+    border-color: #ab4493;
+    border-style: solid;
+    border-radius: 10px;
+    width: 220px;
+    cursor: pointer;
+  }
+  
+  button p {
+    color: #fff;
+  }
+  
+  span {
+    color: #ab4493;
+  }
+  #imgsomos{
+      padding: 0px;
+      margin: 0px;
+  }
+  #imgcon{
+      padding: 0%;
+  }
+ #centra{
+     height: 450px;
+     background-color: rgb(255, 244, 236);
+ }
+  #num{
+      font-weight: bolder;
+      display: flex;
+      justify-content: center;
+      font-size: x-large;
+      text-align: justify;
+  }
+  ul .li{
+      text-align: right;
+  }
+  .lineas{
+      list-style-type:none;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: large;
+      text-align: justify;
+  }
+  .copy{
+      justify-self: left;
+      font-size: x-small;
+      align-self: end;
+      padding: 0%;
+      background: rgb(241,198,201);
+      background: radial-gradient(circle, rgba(240, 201, 204, 0.727) 0%, rgba(241,198,192,1) 51%);
+  }

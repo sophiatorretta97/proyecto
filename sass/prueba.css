@@ -1,9 +1,15 @@
 #logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  background: rgb(241, 198, 201);
-  background: radial-gradient(circle, rgba(240, 201, 204, 0.727) 0%, rgba(241, 198, 192, 1) 51%);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #f1c6c9;
+  background: radial-gradient(circle, rgba(240, 201, 204, 0.727) 0%, #f1c6c0 51%);
 }
 
 #consul {
@@ -12,7 +18,7 @@
 
 .ubicacion {
   padding: 20px;
-  border: solid 10px rgb(255, 244, 236);
+  border: solid 10px #fff4ec;
   margin: 20px 10px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -27,7 +33,7 @@
   -ms-flex-pack: distribute;
   justify-content: space-around;
   padding: 15px;
-  border: solid 10px rgb(248, 227, 212);
+  border: solid 10px #f8e3d4;
   margin: 30px 10px;
   display: flex;
   align-items: center;
@@ -36,51 +42,62 @@
 }
 
 #tcc {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   font-family: 'Cormorant Garamond', serif;
   color: gray;
   text-align: justify;
-  align-self: center;
+  -ms-flex-item-align: center;
+      align-self: center;
   font-size: x-large;
   padding: 5%;
 }
 
 #centro {
-  background-color: rgb(255, 244, 236);
+  background-color: #fff4ec;
   padding: 0%;
 }
 
 footer {
-  background: rgb(241, 198, 201);
-  background: radial-gradient(circle, rgba(240, 201, 204, 0.727) 0%, rgba(241, 198, 192, 1) 51%);
+  background: #f1c6c9;
+  background: radial-gradient(circle, rgba(240, 201, 204, 0.727) 0%, #f1c6c0 51%);
   min-height: 100px;
   text-align: end;
+}
 
-  p {
-    color: rgb(0, 0, 0);
-    text-align: left;
-    font-size: smaller;
-  }
+footer p {
+  color: black;
+  text-align: left;
+  font-size: smaller;
 }
 
 #iconos {
   font-size: 30px;
   padding: 0 8px;
-  color: rgb(0, 0, 0);
+  color: black;
 }
 
 .titulo {
   font-family: 'Dancing Script', cursive;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   text-align: center;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   font-size: xx-large;
 }
 
 .copy {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   text-align: end;
-  justify-content: end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
   font-family: 'Domine', serif;
 }
 
@@ -92,11 +109,14 @@ footer {
 
 #cti {
   font-size: medium;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   font-family: 'Cormorant Garamond', serif;
-  color: rgb(51, 50, 50);
+  color: #333232;
   text-align: justify;
-  align-self: center;
+  -ms-flex-item-align: center;
+      align-self: center;
   font-size: x-large;
   padding: 5%;
 }
@@ -107,15 +127,19 @@ footer {
 }
 
 .fondo {
-  background-color: rgb(255, 244, 236);
+  background-color: #fff4ec;
 }
 
 #tituloservicios {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   font-family: 'Dancing Script', cursive;
   font-size: x-large;
   padding: 10px;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 label {
@@ -140,10 +164,10 @@ button {
   border-radius: 10px;
   width: 220px;
   cursor: pointer;
+}
 
-  p {
-    color: #fff;
-  }
+button p {
+  color: #fff;
 }
 
 span {
@@ -161,13 +185,17 @@ span {
 
 #centra {
   height: 450px;
-  background-color: rgb(255, 244, 236);
+  background-color: #fff4ec;
 }
 
 #num {
   font-weight: bolder;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   font-size: x-large;
   text-align: justify;
 }
@@ -178,18 +206,29 @@ ul .li {
 
 .lineas {
   list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-size: large;
   text-align: justify;
 }
 
 .copy {
-  justify-self: left;
+  -ms-grid-column-align: left;
+      justify-self: left;
   font-size: x-small;
-  align-self: end;
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
   padding: 0%;
-  background: rgb(241, 198, 201);
-  background: radial-gradient(circle, rgba(240, 201, 204, 0.727) 0%, rgba(241, 198, 192, 1) 51%);
+  background: #f1c6c9;
+  background: radial-gradient(circle, rgba(240, 201, 204, 0.727) 0%, #f1c6c0 51%);
 }
+/*# sourceMappingURL=prueba.css.map */
